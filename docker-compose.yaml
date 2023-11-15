@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  postgres:
+    build: ./postgres
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    ports:
+      - 5430:5430
+    restart: always
