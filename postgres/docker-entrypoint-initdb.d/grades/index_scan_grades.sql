@@ -1,1 +1,1 @@
-explain select * from grades where id = 10;
+explain analyze select name from grades where id = 7;
