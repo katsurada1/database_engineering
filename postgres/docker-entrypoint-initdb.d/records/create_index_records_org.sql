@@ -1,0 +1,1 @@
+create index records_org_index on records_org(g);
