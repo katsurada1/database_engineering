@@ -1,0 +1,1 @@
+insert into records_parts select * from records_org;
