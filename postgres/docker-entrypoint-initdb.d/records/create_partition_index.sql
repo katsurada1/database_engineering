@@ -1,0 +1,1 @@
+create index records_parts_index on records_parts(g);
