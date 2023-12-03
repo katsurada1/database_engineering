@@ -1,1 +1,1 @@
-insert into records_org(g) select floor(random()*100) from generate_series (0, 100000);
+insert into records_org(g) select floor(random()*100) from generate_series (0, 1000000);
