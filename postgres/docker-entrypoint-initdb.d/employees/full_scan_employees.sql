@@ -1,1 +1,1 @@
-explain analyze select id, name from employees where name like '%Zs%'; 
+explain analyze select id, name from employees where name like 'Zs'; 
