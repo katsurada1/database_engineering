@@ -1,6 +1,7 @@
 # database_engineering
 ## Description
 In this project, various database experiments is performed on postgres tables created in a docker environment.
+In the experiment, I replicated three techniques to reduce execution time when querying large data sets.
 
 ## Impact of indexing on search time (employees)
 In this section, I review index scan times by comparing the execution time 
