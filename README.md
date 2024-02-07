@@ -30,7 +30,7 @@ The results of running an index scan looking for the '%Zs%' string are as follow
   <img width="888" alt="image" src="https://github.com/katsurada1/database_engineering/assets/91961057/9e632ef5-924a-42dc-aac1-54ab5fb14f8f">
 </p>
 The index does not work when looking for '%Zs%' strings.
-This is because this time the B-Tree index is effective only for exact match search.
+This is because this time the bitmap index is effective only for exact match search.
 
 ## Impact of partitioning on search time (records)
 In this section, I review the impact of partitioning on execution time through experimentation.
